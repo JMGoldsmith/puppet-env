@@ -1,0 +1,4 @@
+#folders/files to ignore
+.DS_store
+.git
+.vagrant
