@@ -103,7 +103,7 @@ file { "${home}/.local/":
   owner => "vagrant",
   group => "vagrant"
 }
-
+include meteor
 
 # --- Symlink Dir Creation -----------------------------------------------------
 
