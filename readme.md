@@ -1,6 +1,7 @@
 ## Base dev box
 Updated dev box based on inherited config from MakerSquare. Fixed rbenv rights issue(requires sudo), added rails and meteor.
 
+##### When setting up, please place in/create folder user/code/devenv or change the folder listing yourself.
 ### includes:
 -Rails
 -Rbenv
