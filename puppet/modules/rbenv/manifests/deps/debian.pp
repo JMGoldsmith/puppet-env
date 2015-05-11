@@ -18,4 +18,24 @@ class rbenv::deps::debian {
   if ! defined(Package['zlib1g-dev']) {
     package { 'zlib1g-dev': ensure => installed }
   }
+
+  if ! defined(Package['libffi-dev']) {
+    package { 'libffi-dev': ensure => installed }
+  }
+
+  if ! defined(Package['libyaml-dev']) {
+    package { 'libyaml-dev': ensure => installed }
+  }
+
+  if ! defined(Package['libncurses5-dev']) {
+    package { 'libncurses5-dev': ensure => installed }
+  }
+
+  if ! defined(Package['libgdbm3']) {
+    package { 'libgdbm3': ensure => installed }
+  }
+
+  if ! defined(Package['libgdbm-dev']) {
+    package { 'libgdbm-dev': ensure => installed }
+  }
 }

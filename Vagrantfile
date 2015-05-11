@@ -17,4 +17,5 @@ Vagrant.configure('2') do |config|
     puppet.module_path    = 'puppet/modules'
     puppet.options        = '--verbose --debug'
   end
+  
 end

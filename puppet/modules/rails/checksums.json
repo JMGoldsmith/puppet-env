@@ -1,0 +1,12 @@
+{
+  "README.md": "bec845f453038f3ef3042c0f95acf718",
+  "Rakefile": "20b80e526e351a74df2001f504e756d2",
+  "examples/default.pp": "c0f12f66cc82991bfd467d6e0714861f",
+  "examples/with-update.pp": "dc1e5e67f3f77639cb08516b2b89b198",
+  "manifests/init.pp": "bc1ff5e6cc9e50e252edff7bc4cf6d36",
+  "metadata.json": "8eb9a465e168b8aa2f04435edc0ee3ef",
+  "spec/classes/init_spec.rb": "b8ec7d02e539814349e2ed80fe083c9d",
+  "spec/spec_helper.rb": "a55d1e6483344f8ec6963fcb2c220372",
+  "stamp.yml": "eb3dea661d3d6611702953fe6cc5fba3",
+  "tests/init.pp": "db20ad782e8623d395659f552b085bae"
+}

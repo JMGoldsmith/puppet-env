@@ -88,9 +88,10 @@ rbenv::gem { 'mini_magick': ruby_version => $rubyver }
 rbenv::gem { 'nokogiri': ruby_version => $rubyver }
 
 exec {'chown_rbenv':
-  command => "chown -R vagrant:vagrant ${home}/.rbenv",
+  command => "sudo chown -Rf vagrant ${home}/.rbenv",
   require   => Rbenv::Build[$rubyver]
 }
+include rails
 
 # --- Node ---------------------------------------------------------------------
 
