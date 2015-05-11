@@ -3,6 +3,7 @@ Updated dev box based on inherited config from MakerSquare. Fixed rbenv rights i
 
 ### includes:
 -Rails
+-Rbenv
 -NodeJS
 -MeteorJS
 -Sqlite3
