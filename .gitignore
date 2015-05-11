@@ -1,8 +1,0 @@
-#folders/files to ignore
-.DS_store
-.git
-.vagrant
-.gitignore
-projects/*
-pluralsight/*
-edu/*
