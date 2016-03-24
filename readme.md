@@ -3,7 +3,7 @@ Updated dev box based on inherited config from MakerSquare. Fixed rbenv rights i
 
 ##### When setting up, please place in/create folder user/code/devenv or change the folder listing yourself.
 
-After completing this step, cd to the folder you have cloned this repo to and run 'vagrant up'
+After completing this step, cd to the folder you have cloned this repo to and run 'vagrant up', then when finished, run 'vagrant provision' due to rbenv rights issue. If you still run in to install errors in regards to rbenv, just run 'sudo chown -Rf vagrant ${home}/.rbenv'
 
 ### includes:
 -Rails
