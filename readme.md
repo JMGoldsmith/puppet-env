@@ -5,6 +5,8 @@ Updated dev box based on inherited config from MakerSquare. Fixed rbenv rights i
 
 After completing this step, cd to the folder you have cloned this repo to and run 'vagrant up', then when finished, run 'vagrant provision' due to rbenv rights issue. If you still run in to install errors in regards to rbenv, just run 'sudo chown -Rf vagrant ${home}/.rbenv'
 
+## when running rails server, or any other type of server(node, etc) please bind the IP to 0.0.0.0 - This will allow for the application to serve up pages outside of the vagrant box. Ex: rails s -b 0.0.0.0 instead of just rails s.
+
 ### includes:
 -Rails
 -Rbenv
